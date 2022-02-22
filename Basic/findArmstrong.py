@@ -1,3 +1,9 @@
+''' created Date: feb-22/02/2022 18:45
+A positive integer is called an Armstrong number of order n if
+
+abcd... = an + bn + cn + dn + ...
+'''
+
 n = int(input())
 length = len(str(n))
 temp = n
