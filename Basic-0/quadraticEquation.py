@@ -10,3 +10,14 @@ The solutions of this quadratic equation is given by:
 
 (-b ± (b ** 2 - 4 * a * c) ** 0.5) / (2 * a) '''
 
+import cmath
+a = int(input())
+b = int(input())
+c = int(input())
+
+s = (b**2 - 4*a*c)
+
+posresult = (-b + cmath.sqrt(s))/ (2 * a)
+negresult = (-b - cmath.sqrt(s))/ (2 * a)
+
+print("{} and {}".format(posresult, negresult))
